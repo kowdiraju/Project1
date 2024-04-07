@@ -1,0 +1,80 @@
+.navbar{
+    background: #37517e;
+}
+.header{
+    background: #37517e;
+}
+
+
+.cta{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(../img/cta-bg.jpg) fixed center center;
+    background-size: cover;
+    padding: 120px 0;
+}
+.services{
+    background-color: #f3f5fa;
+}
+.companylogo{
+    background-color: #f3f5fa;
+}
+.team{
+    background-color: #f3f5fa;
+}
+.team-members-card .team-member-desc span::after{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #cbd6e9;
+    bottom: 0;
+    left: 0;
+}
+.faq{
+    background-color: #f3f5fa;
+}
+.faq .main-border{
+    color: #47b2e4;
+}
+.contact-card i{
+    font-size: 20px;
+    color: #47b2e4;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #e7f5fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+.newsletter{
+    background-color: #f3f5fa;
+}
+.footer4 i{
+   font-size: 18px;
+    display: inline-block;
+    background: #47b2e4;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+.copyright{
+    background-color: #37517e;
+
+}
+
+.service-card-content {
+    transition: padding-top 0.3s, padding-bottom 0.3s !important;  /* Smooth transition for padding changes */
+}
+
+.service-button {
+    transition: color 0.3s !important; /* Smooth transition for color changes */
+}
